@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Expires" CONTENT="-1">           
+<meta http-equiv="Cache-Control" CONTENT="no-cache">
+<meta http-equiv="Pragma" CONTENT="no-cache">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Shopping Bag</title>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="main">
+		<div class="index_header_top header_top">
+			<span class="prev">
+				<i class="arrow_c"><i><i></i></i></i>
+			</span>
+            <span class="bag_to_home">
+            	<i></i>
+            </span>
+			<h2>Shopping Bag</h2>
+		</div>
+		<style>
+			.bag_to_home{position:absolute;top:0;bottom:0;left:4rem;margin:auto;height:4rem;line-height:4rem;width:4rem;}
+			.bag_to_home i{background:url(images/menu_icon.png) no-repeat 0 -3.8rem;background-size:4rem;width:4rem;height:4rem;display:block;}
+		</style>
+		<div class="wrap">
+            <div class="bag_item">
+                <span class="nodata"><b class="icon"><i></i></b>Your shopping cart is empty.</span>
+                <span class="shop_now"><a href="#">Continue shopping</a></span>
+            </div>
+             <div class="bag_item">
+             	<div class="money_total">
+                	<ul>
+                    	<li>Subtotal:<span class="subtotal">$10.25</span></li>
+                        <li>Shipping Fee:<span class="shipping_fee">$0.00</span></li>
+                        <li>Total:<span class="total">$10.25</span></li>
+                    </ul>
+                </div>
+             </div>
+             <div class="bag_item">
+             	<div class="warehouse_list" id="list_1">
+                	<h4 class="title">Warehouse/Direct mail: CN_HZ (<b>2</b> Items)</h4>
+                    <ul class="goods_list_item" id="1">
+                    	<li class="img"><a href="#"><img src="http://img.newchic.com/thumb/view/upload/2015/03/SKU188777-(1).jpg"></a></li>
+                        <li>
+                        	<span class="title"><a href="#">SCULPT Premium Bandage Skater  Dress</a></span>
+                            <span class="poa">
+                            	<strong class="poa_list">
+                                	Color:<s class="color">Yellow</s>
+                                    Qty:<s class="qty">1</s><br />
+                                    Size:<s class="size">M</s>
+                                    
+                                    <i class="arrow_a"><i><i></i></i></i>
+                                </strong>
+                                <strong class="price">
+                                	$10.24
+                                </strong>
+                                <strong class="saveforLater">
+                                	≡ Save for later
+                                </strong>
+                                <strong class="remove"><i></i></strong>
+                            </span>
+                        </li>
+                    </ul>
+                    <ul class="goods_list_item" id="2">
+                    	<li class="img"><a href="#"><img src="http://img.newchic.com/thumb/view/upload/2015/05/SKU189442%20(8).jpg"></a></li>
+                        <li>
+                        	<span class="title"><a href="#">SCULPT Premium Bandage Skater  Dress</a></span>
+                            <span class="poa">
+                            	<strong class="poa_list">
+                                	Color:<s class="color">Yellow</s>
+                                    Qty:<s class="qty">1</s><br />
+                                    Size:<s class="size">M</s>
+                                    
+                                    <i class="arrow_a"><i><i></i></i></i>
+                                </strong>
+                                <strong class="price">
+                                	$10.24
+                                </strong>
+                                <strong class="remove"><i></i></strong>
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="shipping_total">
+                    	<span class="title">Shipping:</span>
+                        <div class="shipping_box">
+                        	<strong>
+                            	<b>Air Parcel Register (<i>Free shipping</i> & 7-20 business days)</b>
+                                <i class="arrow_a"><i><i></i></i></i>
+                            </strong>
+                            <span class="shipping_list">
+                                <u class="active" code="airmail_airmail">Air Parcel Register (<i>Free shipping</i> & 7-20 business days)<s></s></u>
+                                <u code="chinapost_chinapost">EMS Express Mail Service (<i>US$11.82</i> &amp; 10-15 business days)</u>
+                                <u code="cndhl_cndhl">Expedited Shipping Service (<i>US$3.93</i> &amp; 3-7 business days)</u>
+                                <b>Save</b>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="shipping_price">
+                    	<span>Shipping Fee:<s>US $0.00</s></span>
+                        <span>Total:<b>US $330.00</b></span>
+                    </div>
+                </div>
+                <div class="warehouse_list"  id="list_2">
+                	<h4 class="title">Warehouse/Direct mail: CN_HZ (<b>1</b> Items)</h4>
+                    <ul class="goods_list_item" id="3">
+                    	<li class="img"><a href="#"><img src="http://img.newchic.com/thumb/gallery/upload/2015/06/SKU239925%20(1).jpg"></a></li>
+                        <li>
+                        	<span class="title"><a href="#">SCULPT Premium Bandage Skater  Dress</a></span>
+                            <span class="poa">
+                            	<strong class="poa_list">
+                                	Color:<s class="color">Yellow</s>
+                                    Qty:<s class="qty">1</s><br />
+                                    Size:<s class="size">M</s>
+                                    
+                                    <i class="arrow_a"><i><i></i></i></i>
+                                </strong>
+                                <strong class="price">
+                                	$10.24
+                                </strong>
+                                <strong class="remove"><i></i></strong>
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="shipping_total">
+                    	<span class="title">Shipping:</span>
+                        <div class="shipping_box">
+                        	<strong>
+                            	<b>Air Parcel Register (<i>Free shipping</i> & 7-20 business days)</b>
+                                <i class="arrow_a"><i><i></i></i></i>
+                            </strong>
+                            <span class="shipping_list">
+                                <u class="active" code="airmail_airmail">Air Parcel Register (<i>Free shipping</i> & 7-20 business days)<s></s></u>
+                                <u code="chinapost_chinapost">EMS Express Mail Service (<i>US$11.82</i> &amp; 10-15 business days)</u>
+                                <u code="cndhl_cndhl">Expedited Shipping Service (<i>US$3.93</i> &amp; 3-7 business days)</u>
+                                <b>Save</b>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="shipping_price">
+                    	<span>Shipping Fee:<s>US $0.00</s></span>
+                        <span>Total:<b>US $330.00</b></span>
+                    </div>
+                </div>
+             </div>
+             <div class="bag_item">
+             	<h4 class="title">Shipping Address<i class="add_address">Add</i></h4>
+                <div class="bag_address_tag">
+                	<span class="nodata">No address</span>
+                </div>
+                <div class="bag_address_tag">
+                	<b>Burne-Jones<br>4114 Sepulveda Blvd,Culver City, CA,USA  90230</b>
+                	<span class="arrow_d account_setting"><i><i></i></i></span>
+                </div>
+             </div>
+             <div class="bag_item">
+             	<h4 class="title">Phone Number</h4>
+                <span class="bag_phone_list"><input type="text" value="Please input your phone number" dvalue="Please input your phone number" class="inputchang"></span>
+             </div>
+             <div class="bag_item">
+             	<h4 class="title">Coupon<i class="coupon_btn">Use</i></h4>
+                <span class="bag_coupon_tag">3 coupons are available</span>
+             </div>
+		</div>
+	</div>
+</div>
+
+<div class="fixed_bag_pay">
+	<div class="bag_pay">
+        <span class="total">US$ 96.00</span>
+        <span><b class="paypal"><i></i></b></span>
+    </div>
+</div>
+<script src="js/common.js"></script>
+<script src="js/jq.lazyload.js"></script>
+<script type="text/javascript">
+	//var httpsStr = document.location.protocol == 'https:' ? "https:" : "http:";
+	$("img.nc_lazy").lazyload({	
+		placeholder : homeUrl+"images/grey.gif", 
+		effect      : "fadeIn"
+	});
+</script>
+<img src="" class="nc_lazy">
+</body>
+</html>
